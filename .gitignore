@@ -1,6 +1,9 @@
 # Apple
 *.DS_Store
 
+# credentials
+credentials.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
