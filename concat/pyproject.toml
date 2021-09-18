@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "concat"
+version = "0.1.0"
+description = ""
+authors = ["jefftrevino <jeffrey.trevino@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+jupyter = "^1.0.0"
+CairoSVG = "^2.5.2"
+svgwrite = "^1.4.1"
+rdp = "^0.8"
+matplotlib = "^3.4.2"
+tqdm = "^4.61.1"
+google-cloud-translate = "^3.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
