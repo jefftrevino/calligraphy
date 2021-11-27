@@ -13,6 +13,7 @@ rdp = "^0.8"
 matplotlib = "^3.4.2"
 tqdm = "^4.61.1"
 google-cloud-translate = "^3.4.0"
+Pillow = "^8.4.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
